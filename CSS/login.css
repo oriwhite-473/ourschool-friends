@@ -1,15 +1,5 @@
-.website_image {
-    width: 5vh;
-}
-
-.website_name {
-    position: absolute;
-    top: 3vh;
-    left: 7vh;
-    font-family: Arial;
-    font-size: 2vh;
-    color: #a78bda;
-
+.logo {
+    width: 15vh;
 }
 
 .login_text {
