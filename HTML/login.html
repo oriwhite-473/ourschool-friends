@@ -2,16 +2,37 @@
 <html>
 <head>
     <title>Login</title>
+    <link rel="stylesheet" href="../CSS/login.css">
 </head>
 
 <body>
-    <p>Please log in to your Account</p>
-    <input placeholder="Username"> <br>
-    <input placeholder="Password"> <br>
-    <form action="/authenticate" method="post">
-        <button type="submit" id="login_id">Log In</button>
-    </form>
-    <script src="ourschool.js"></script>
+    <div class="website_image">
+        <img src="../Images/home_icon.svg">
+    </div>
+
+    <div class="website_name">
+        <span>
+            Ourschool
+        </span>
+    </div>
+
+    <div class="login_text">
+        <span>
+            Please Enter your Username and Password
+        </span>
+    </div>
+
+    <div class="inputs">
+        <input class="login-input" type="username" placeholder="Username">
+        <input class="login-input" type="password" placeholder="Password">
+    </div>
+
+    <div class="login_button">
+        <form action="/authenticate" method="post">
+            <input type="image" src="../Images/login_button.svg">
+        </form>
+    </div>
+
 </body>
 
 
