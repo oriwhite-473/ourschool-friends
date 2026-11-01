@@ -1,0 +1,57 @@
+.logo {
+    width: 15%;
+}
+
+.login_text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 27%;
+    text-align: center;
+    white-space: nowrap;
+    font-family: Arial;
+    font-size: 4vh;
+}
+
+.inputs {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 4%;
+    border: 0.5vh solid #c4b5fd;
+    border-radius: 6px;
+    font-size: 3vh;
+}
+
+.username {
+    position: absolute;
+    top: 37%;
+}
+
+.password {
+    position: absolute;
+    top: 46%;
+}
+
+.confirm-password {
+    position: absolute;
+    top: 52%;
+}
+
+.terms_and_conditions {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 61%;
+}
+
+
+.login_button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 64%;
+    width: 40%;
+    height: auto;
+}

@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Login</title>
     <link rel="stylesheet" href="../CSS/login.css">
 </head>
 
 <body>
-    <div class="logo">
-        <img src="../Images/ourschool_logo.svg">
-    </div>
+    <img class="logo" src="../Images/ourschool_logo.svg">
 
-    <div class="login_text">
+    <span class="login_text">
+        Please Enter your Username and Password
+    </span>
+
+
+    <input class="inputs username" placeholder=" Username">
+    <input class="inputs password" type="password" placeholder=" Password">
+
+    <form action="/authenticate" method="post">
+        <input type="image" class="login_button" src="../Images/login_button.svg">
+    </form>
+
+    <div class="signup">
         <span>
-            Please Enter your Username and Password
+            Dont have an Account?
         </span>
-    </div>
-
-    <div class="inputs">
-        <input class="login-input" placeholder="Username">
-        <input class="login-input" type="password" placeholder="Password">
-    </div>
-
-    <div class="login_button">
-        <form action="/authenticate" method="post">
-            <input type="image" src="../Images/login_button.svg">
-        </form>
+        <a href="../HTML/signup.html">
+            Create One
+        </a>
     </div>
 
 </body>

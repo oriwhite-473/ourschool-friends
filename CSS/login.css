@@ -1,12 +1,12 @@
 .logo {
-    width: 15vh;
+    width: 15%;
 }
 
 .login_text {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 27vh;
+    top: 28%;
     text-align: center;
     white-space: nowrap;
     font-family: Arial;
@@ -17,28 +17,36 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-    top: 40vh;
+    width: 30%;
+    height: 4%;
+    border: 0.5vh solid #c4b5fd;
+    border-radius: 6px;
+    font-size: 3vh;
 }
 
-.login-input {
-  width: 30vh;
-  height: 4vh;
-  border: 0.5vh solid #c4b5fd;
-  border-radius: 6px;
-  font-size: 3vh;
+.username {
+    position: absolute;
+    top: 40%;
 }
+
+.password {
+    position: absolute;
+    top: 46%;
+}
+
 
 .login_button {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 53vh;
-    width: 40vh;
-    height: auto;
+    top: 54%;
+    width: 40%;
 }
 
-
-
+.signup {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 74%;
+    font-family: Arial;
+}
